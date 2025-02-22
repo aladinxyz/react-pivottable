@@ -2,9 +2,7 @@
 
 `react-pivottable` is a React-based pivot table library with drag'n'drop
 functionality. It is a React port of the jQuery-based
-[PivotTable.js](https://pivottable.js.org/) by the same author.
 
-`react-pivottable` is part of Plotly's [React Component Suite](https://plot.ly/products/react/) for building data visualization Web apps and products.
 
 <div align="center">
   <a href="https://dash.plotly.com/project-maintenance">
@@ -14,12 +12,7 @@ functionality. It is a React port of the jQuery-based
 
 ## What does it do & where is the demo?
 
-`react-pivottable`'s function is to enable data exploration and analysis by
-summarizing a data set into table or [Plotly.js](https://plot.ly/javascript/)
-chart with a true 2-d drag'n'drop UI, very similar to the one found in older
-versions of Microsoft Excel.
 
-A [live demo can be found here](https://react-pivottable.js.org/).
 
 ![screencap](examples/basic.gif)
 
@@ -75,8 +68,7 @@ injection. It has a peer dependency on `plotly.js`.
 in order to successfully bundle `plotly.js`. See below for how to avoid having
 to bundle `plotly.js`.
 
-```
-npm install --save react-pivottable react-plotly.js plotly.js react react-dom
+
 ```
 
 To add the Plotly renderers to your app, you can use the following pattern:
